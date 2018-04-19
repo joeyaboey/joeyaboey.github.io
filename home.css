@@ -1,0 +1,68 @@
+body {
+  font-family: 'merriweather';
+  margin: 0px;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+  font-family: 'lobster';
+  font-size: 25px;
+  margin: 10px;
+}
+
+.hero {
+  font-family: 'Lobster', cursive;
+  height: 80vh;
+  padding: 5px;
+  background-image: url(hero2.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  text-shadow: 1px 1px white;
+  opacity: .9;
+}    
+
+.hero h1 {
+  text-align: right;
+  padding-right: 70px;
+  font-size: 150px;
+  color: brown;
+  margin: 0px;
+}
+
+.middle img {
+  width: 275px;
+}
+
+.toprow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottomrow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.toprow .bottomrow div {
+  flex: 1;
+}
+
+.bottom {
+  display: flex;
+  background-color: #ebf0fa;
+}
+
+.about {
+  flex: 2;
+}
+
+.hanyphoto {
+  flex: 1;
+}
+
+.hanyphoto img {
+  width: 300px
+}

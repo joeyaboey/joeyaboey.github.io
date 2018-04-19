@@ -1,0 +1,156 @@
+/* This is a single CSS page for all three pages of the website */
+
+body {
+  font-family: 'merriweather';
+    max-width: 1020px;
+    margin: auto;
+}
+
+h1 {
+  font-family: "lobster";
+  font-size: 50px;
+  margin: 0px
+}
+
+/* This is to adjust the auto-margin of all paragraph text */
+
+p {
+  margin: 5px
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+  font-family: 'lobster';
+  font-size: 25px;
+  margin: 10px;
+}
+
+.hero {
+  font-family: 'Lobster', cursive;
+  height: 80vh;
+    padding-left: 30%;
+  background-image: url(hero2.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  text-shadow: 1px 1px white;
+  opacity: .9;
+}    
+
+.hero h1 {
+  text-align: right;
+  padding-right: 50px;
+  font-size: 150px;
+  color: #4d0000;
+  margin: 0px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle img {
+  width: 275px;
+}
+
+.toprow {
+  display: flex;
+  justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bottomrow {
+  display: flex;
+  justify-content: space-around;
+        flex-wrap: wrap;
+}
+
+.toprow .bottomrow div {
+  flex: 1;
+}
+
+.bottom {
+  display: flex;
+  background-color: #ebf0fa;
+    justify-content: space-between;
+}
+
+.about {
+  flex: 2;
+}
+
+.hanyphoto {
+  flex: 1;
+}
+
+.hanyphoto img {
+  width: 100%;
+}
+
+.all {
+  display: flex;
+  margin: 10px;
+}
+
+.left {
+  flex: 1;
+  margin-right: 50px
+}
+
+.right {
+  flex: 1;
+}
+
+.rosesphoto img {
+  width: 500px
+}
+
+/* Ideally when hovering over, a larger version of the image would take the place of the main image above - maybe that's phase 2! */
+
+.thumbs img {
+  width: 100px
+}
+
+/* Only top and bottom border is applied for visual separation */
+
+.items {
+  display: flex;
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
+  margin-top: 10px;
+}
+
+.cartdetail {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.items img {
+  margin-top: 30px
+}
+
+.checkout {
+  text-align: right;
+  padding-right: 50px
+}
+
+/* Margin and padding are applied to create visual separation from the checkout area above */
+
+.alsolike {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  background-color: #ebf0fa
+}
+
+.alsolikeitems {
+  display: flex;
+  justify-content: space-around
+}
+
+.alsolikeitems img {
+  width: 125px
+}
