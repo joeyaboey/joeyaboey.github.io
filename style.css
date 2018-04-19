@@ -6,13 +6,18 @@ body {
     margin: auto;
 }
 
+/* This is to adjust the auto-margin of all paragraph text */
+
 h1 {
   font-family: "lobster";
   font-size: 50px;
   margin: 0px
 }
 
-/* This is to adjust the auto-margin of all paragraph text */
+a {
+    text-decoration: none;
+    color: black;
+}
 
 p {
   margin: 5px
@@ -97,7 +102,7 @@ p {
 
 .left {
   flex: 1;
-  margin-right: 50px
+  margin-right: 50px;
 }
 
 .right {
@@ -105,13 +110,13 @@ p {
 }
 
 .rosesphoto img {
-  width: 500px
+  width: 500px;
 }
 
 /* Ideally when hovering over, a larger version of the image would take the place of the main image above - maybe that's phase 2! */
 
 .thumbs img {
-  width: 100px
+  width: 100px;
 }
 
 /* Only top and bottom border is applied for visual separation */
@@ -123,18 +128,23 @@ p {
   margin-top: 10px;
 }
 
+.items>div {
+    flex: 1;
+}
+
 .cartdetail {
   margin-left: 50px;
   margin-top: 30px;
 }
 
 .items img {
-  margin-top: 30px
+  margin-top: 30px;
+    width: 100%;
 }
 
 .checkout {
   text-align: right;
-  padding-right: 50px
+  padding-right: 50px;
 }
 
 /* Margin and padding are applied to create visual separation from the checkout area above */
@@ -143,14 +153,14 @@ p {
   margin-top: 30px;
   margin-bottom: 10px;
   padding-top: 5px;
-  background-color: #ebf0fa
+  background-color: #ebf0fa;
 }
 
 .alsolikeitems {
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
 .alsolikeitems img {
-  width: 125px
+  width: 125px;
 }
