@@ -1,0 +1,107 @@
+body {
+    padding-bottom: 100px;
+    background-color: #eff5ff;
+    margin: 0px;
+}
+
+/*nav bar at top of page*/
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-family: 'chicle';
+    font-size: 25px;
+    margin: 5px;
+    padding: 0px;
+}
+
+/*hero image*/
+.parent {
+    background-image: url(band.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1, h3 {
+   text-align: center;
+    font-size: 110px;
+    font-family: 'Chicle', cursive;
+}
+
+
+/* headliner names */
+h3 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+p {
+   font-family: 'Signika', sans-serif; 
+}
+
+
+
+.bands>div {
+    border: 3px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.bands {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    margin:auto;
+    padding-top: 0px;
+    
+}
+
+/* set time and learn more button within each band image */
+.info {
+    background-color: #5795ff;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+/* divs of each band within the 'bands' parent div */
+.ledzeppelin {
+    background-image: url(guitar%20player.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.pinkfloyd {
+    background-image: url(pink%20flod.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fleetwood {
+    background-image: url(rockband%20on%20stage.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

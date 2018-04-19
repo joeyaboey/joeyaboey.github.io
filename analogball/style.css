@@ -1,0 +1,118 @@
+body {
+    font-family: 'signika';
+    margin: 0px
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    font-family: 'chicle';
+    font-size: 25px;
+    margin: 5px;  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    font-family: 'Chicle';
+    background-color: #eff5ff;
+    text-align: center;
+    height: 100vh;
+    background-image: url(tix.jpg);
+    filter: grayscale(1%);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px white;
+    font-size: 30px;
+}    
+
+.date {
+    margin-top: 185px;
+    border: none;
+    color: darkorange
+}
+
+.hero h1 {
+    font-size: 100px
+}
+
+.hero h2 {
+    margin: 10px
+}
+
+.middle h1 {
+    font-family: 'chicle'
+}
+
+.middle {
+    display: flex;
+}
+
+.lineup {
+    display: flex;
+    flex: 1;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #eff5ff;    
+}
+
+div {
+    border: black solid 1px
+}
+
+.lineup div {
+    border: none;
+}
+
+.midright {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.tix {
+    flex: 1;
+    padding-left: 30px;
+    background-image: url(tiedye.jpg);
+    background-size: cover;
+    text-shadow: 1px 1px white;
+}
+
+.exp {
+    flex: 1;
+    padding-left: 30px;
+    background-image: url(wheel.jpg);
+    background-size: cover;
+    background-position: bottom;
+    text-shadow: 1px 1px white;
+}
+
+.bottom ul img {
+    width: 20px;
+    height: 20px;
+}
+
+.bottom ul {
+    padding: 0px
+}
+
+.bottom li {
+    display: inline-block;
+    background-color: brown;
+    padding: 5px;
+    margin-right: 10px;
+    height: 18px;
+}
+
+.bottom {
+    background-color: #eff5ff;
+    text-align: center
+}

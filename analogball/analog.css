@@ -1,0 +1,56 @@
+body {
+    font-family: 'Signika', sans-serif;
+    padding: 10px;
+    background-color: aliceblue;
+    line-height: 2.0;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    font-family: 'chicle';
+    font-size: 25px;
+    margin: 5px;  
+}
+
+.expone, .exptwo, .expthree, .expfour {
+    background-size: cover;
+    padding-top: 25px; 
+    padding-bottom: 25px;
+    display: flex;
+    margin: inherit;
+    text-align: center;
+    font-size: 30px    
+}
+.expone div, .exptwo div, .expthree div, .expfour div {
+    
+    flex:1;
+    margin: 10px;
+    text-align: right;
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+}
+
+img, h1 {
+    font-size: 50px;
+    width: 100%;
+    flex: 1;
+    font-family: 'Chicle', cursive;
+    
+}
+
+
+   
+
